@@ -4,16 +4,25 @@ using UnityEngine;
 
 public class MushroomHit : MonoBehaviour {
 
-	int mushroomCounter;
+    int mushCount = 0;
+    private void Start()
+    {
+        Debug.Log("Script start");
+    }
 
-	void onCollisionEnter(){
+    void Update()
+    {
+        
+    }
 
-		mushroomCounter++;
-		Debug.Log ("Mushroom count" + mushroomCounter);
+    void OnCollisionEnter(){
+		Debug.Log ("Mushroom count col");
 	}
-
-	void onTriggerEnter(Collision col){
-		mushroomCounter++;
-		Debug.Log ("Mushroom count" + mushroomCounter);
+        
+    void OnTriggerEnter(Collider col){
+        mushCount++;
+        Debug.Log ("Mushroom count "+mushCount);
+        Destroy(col.gameObject);
+        //Destroy(col.gameObject);
 	}
 }
