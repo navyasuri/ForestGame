@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23594826081169070}
   - component: {fileID: 64622806057398360}
   m_Layer: 0
-  m_Name: Pine01 (8)
+  m_Name: TrreCollide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
