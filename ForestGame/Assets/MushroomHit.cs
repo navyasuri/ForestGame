@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class MushroomHit : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+	int mushroomCounter;
+
+	void onCollisionEnter(){
+
+		mushroomCounter++;
+		Debug.Log ("Mushroom count" + mushroomCounter);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	void onTriggerEnter(Collision col){
+		mushroomCounter++;
+		Debug.Log ("Mushroom count" + mushroomCounter);
 	}
 }
