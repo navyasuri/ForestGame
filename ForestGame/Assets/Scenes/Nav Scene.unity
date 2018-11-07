@@ -156,11 +156,6 @@ Prefab:
       propertyPath: m_Name
       value: Red_mushroom (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 136682259443065584, guid: a5d1138742629d940ba6df4373f57310,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5d1138742629d940ba6df4373f57310, type: 2}
   m_IsPrefabAsset: 0
