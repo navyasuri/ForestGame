@@ -12,7 +12,7 @@ public class PlayerRespawner : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (gameObject.transform.position.y < -50) {
-			gameObject.transform.position = new Vector3 (250, 30, 250);
+			gameObject.transform.position = new Vector3 (433, 35, 392);
 		}
 	}
 }
