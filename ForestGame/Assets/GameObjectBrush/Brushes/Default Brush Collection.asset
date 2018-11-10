@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Default Brush Collection
   m_EditorClassIdentifier: 
   _brushes:
-  - brushObject: {fileID: 1631845410424288, guid: 5627993baba27f14db9858b85c2acf3c,
+  - brushObject: {fileID: 1562119382739742, guid: c07f24e35f07ce74ba43afa35d48adf7,
       type: 2}
     usePrefabs: 1
     allowIntercollision: 0
@@ -21,7 +21,7 @@ MonoBehaviour:
     randomizeYRotation: 1
     randomizeZRotation: 0
     parentContainer: {fileID: 0}
-    density: 0.2
+    density: 1
     brushSize: 5
     minScale: 0.5
     maxScale: 1.5
@@ -35,7 +35,7 @@ MonoBehaviour:
     isTagFilteringEnabled: 0
     tagFilter: 
   primarySelectedBrush:
-    brushObject: {fileID: 1631845410424288, guid: 5627993baba27f14db9858b85c2acf3c,
+    brushObject: {fileID: 1562119382739742, guid: c07f24e35f07ce74ba43afa35d48adf7,
       type: 2}
     usePrefabs: 1
     allowIntercollision: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
     randomizeYRotation: 1
     randomizeZRotation: 0
     parentContainer: {fileID: 0}
-    density: 0.2
+    density: 1
     brushSize: 5
     minScale: 0.5
     maxScale: 1.5
@@ -58,7 +58,7 @@ MonoBehaviour:
     isTagFilteringEnabled: 0
     tagFilter: 
   selectedBrushes:
-  - brushObject: {fileID: 1631845410424288, guid: 5627993baba27f14db9858b85c2acf3c,
+  - brushObject: {fileID: 1562119382739742, guid: c07f24e35f07ce74ba43afa35d48adf7,
       type: 2}
     usePrefabs: 1
     allowIntercollision: 0
@@ -67,7 +67,7 @@ MonoBehaviour:
     randomizeYRotation: 1
     randomizeZRotation: 0
     parentContainer: {fileID: 0}
-    density: 0.2
+    density: 1
     brushSize: 5
     minScale: 0.5
     maxScale: 1.5
