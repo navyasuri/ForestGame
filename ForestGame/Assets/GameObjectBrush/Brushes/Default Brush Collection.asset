@@ -34,20 +34,40 @@ MonoBehaviour:
       m_Bits: 4294967295
     isTagFilteringEnabled: 0
     tagFilter: 
-  primarySelectedBrush:
-    brushObject: {fileID: 1562119382739742, guid: c07f24e35f07ce74ba43afa35d48adf7,
-      type: 2}
+  - brushObject: {fileID: 195220, guid: a5d1138742629d940ba6df4373f57310, type: 2}
     usePrefabs: 1
-    allowIntercollision: 0
-    alignToSurface: 0
+    allowIntercollision: 1
+    alignToSurface: 1
     randomizeXRotation: 0
     randomizeYRotation: 1
     randomizeZRotation: 0
     parentContainer: {fileID: 0}
     density: 1
     brushSize: 5
-    minScale: 0.5
-    maxScale: 1.5
+    minScale: 2
+    maxScale: 2.5
+    offsetFromPivot: {x: 0, y: 0, z: 0}
+    rotOffsetFromPivot: {x: 0, y: 0, z: 0}
+    minSlope: 0
+    maxSlope: 360
+    layerFilter:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    isTagFilteringEnabled: 0
+    tagFilter: 
+  primarySelectedBrush:
+    brushObject: {fileID: 195220, guid: a5d1138742629d940ba6df4373f57310, type: 2}
+    usePrefabs: 1
+    allowIntercollision: 1
+    alignToSurface: 1
+    randomizeXRotation: 0
+    randomizeYRotation: 1
+    randomizeZRotation: 0
+    parentContainer: {fileID: 0}
+    density: 1
+    brushSize: 5
+    minScale: 2
+    maxScale: 2.5
     offsetFromPivot: {x: 0, y: 0, z: 0}
     rotOffsetFromPivot: {x: 0, y: 0, z: 0}
     minSlope: 0
@@ -58,19 +78,18 @@ MonoBehaviour:
     isTagFilteringEnabled: 0
     tagFilter: 
   selectedBrushes:
-  - brushObject: {fileID: 1562119382739742, guid: c07f24e35f07ce74ba43afa35d48adf7,
-      type: 2}
+  - brushObject: {fileID: 195220, guid: a5d1138742629d940ba6df4373f57310, type: 2}
     usePrefabs: 1
-    allowIntercollision: 0
-    alignToSurface: 0
+    allowIntercollision: 1
+    alignToSurface: 1
     randomizeXRotation: 0
     randomizeYRotation: 1
     randomizeZRotation: 0
     parentContainer: {fileID: 0}
     density: 1
     brushSize: 5
-    minScale: 0.5
-    maxScale: 1.5
+    minScale: 2
+    maxScale: 2.5
     offsetFromPivot: {x: 0, y: 0, z: 0}
     rotOffsetFromPivot: {x: 0, y: 0, z: 0}
     minSlope: 0
